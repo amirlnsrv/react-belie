@@ -1,0 +1,28 @@
+.features{
+    margin-top: 100px;
+}
+
+.leftSide{
+    background-image: url('src/assets/img/Features.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.inner{
+    display: flex;
+}
+
+.rightSide{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+.rightSide p {
+    font-size: 17px;
+    line-height: 30.6px;
+}
+.subtitle{
+    font-weight: 300;
+    font-size: 70px;
+}
