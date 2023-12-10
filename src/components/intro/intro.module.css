@@ -1,0 +1,18 @@
+.leftSide{
+    display: flex;
+    flex-direction: column;
+    padding: 150px 50px 273px;
+
+}
+
+.rightSide{
+    background-image: url('src/assets/img/intro.jpg');
+    width: 100%;
+    /*background-position: center center;*/
+    background-size: cover;
+}
+.intro{
+    display: flex;
+    height: 100%;
+
+}
