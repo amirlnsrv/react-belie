@@ -1,0 +1,10 @@
+body {
+  font-family: "Inter", sans-serif;
+  /* font-family: "Kalnia", serif; */
+  /* font-family: "Style Script", cursive; */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
