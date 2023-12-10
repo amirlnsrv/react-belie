@@ -17,3 +17,25 @@ body {
   max-width: 143px;
   padding: 12px 21px;
 }
+
+.btn-features{
+    padding: 12px 21px;
+    max-width: 115px;
+}
+
+.text-intro{
+    font-size: 88px;
+    font-weight: 300;
+}
+.btn{
+    color: #68513F;
+    border: 1px solid #DACEC6;
+    background: #F1EBE7;
+}
+
+.title {
+    font-family: 'Style Script', sans-serif;
+    color:#68513F;
+    font-size: 137px;
+}
+

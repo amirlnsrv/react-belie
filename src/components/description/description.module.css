@@ -1,0 +1,18 @@
+.description {
+    max-width: 800px;
+    margin: 100px auto;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 39.2px;
+}
+
+.brands {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 50px 0;
+}
