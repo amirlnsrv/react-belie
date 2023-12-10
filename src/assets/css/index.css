@@ -4,20 +4,16 @@ body {
   /* font-family: "Style Script", cursive; */
 }
 
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.btn-intro{
-    color: #68513F;
-    border: 1px solid #DACEC6;
-    background: #F1EBE7;
-    max-width: 143px;
-    padding: 12px 21px;
-}
-
-.text-intro{
-    font-size: 88px;
-    font-weight: 300;
+.btn-intro {
+  margin-top: 43px;
+  color: #68513f;
+  border: 1px solid #dacec6;
+  background: #f1ebe7;
+  max-width: 143px;
+  padding: 12px 21px;
 }

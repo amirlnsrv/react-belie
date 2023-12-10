@@ -1,18 +1,29 @@
-.leftSide{
-    display: flex;
-    flex-direction: column;
-    padding: 150px 50px 273px;
-
+.intro {
+  margin-top: 20px;
 }
 
-.rightSide{
-    background-image: url('src/assets/img/intro.jpg');
-    width: 100%;
-    /*background-position: center center;*/
-    background-size: cover;
+.title {
+  font-size: 88px;
+  font-weight: 300;
+  font-family: "Kalnia", serif;
+  line-height: 126px;
 }
-.intro{
-    display: flex;
-    height: 100%;
 
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.leftSide {
+  width: 60%;
+  margin: 15% 0;
+  z-index: 5;
+}
+
+.rightSide {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
