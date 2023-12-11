@@ -30,9 +30,49 @@ body {
     border: 1px solid #DACEC6;
     background: #F1EBE7;
 }
+.text{
+    color: #000;
+    font-family: 'Inter', sans-serif;
+}
 
 .title {
     font-family: 'Style Script', sans-serif;
     color:#68513F;
     font-size: 137px;
+}
+.design-text{
+    margin-right: 0.5em;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.6px;
+}
+.power-text{
+    margin-right: 0.5em;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.6px;
+}
+.skinnBlock-text{
+
+    width: 40%;
+}
+.pagesTitle{
+    color: #000;
+    margin-bottom: 29px;
+    font-family: 'STSong', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 39.2px;
+}
+.contactsTitle{
+    color: #000;
+
+    font-family: 'STSong', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 39.2px;
 }
