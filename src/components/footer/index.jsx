@@ -11,82 +11,61 @@ const Footer = () => {
     <div className={styles.footer}>
       <div className="container">
         <div className={styles.inner}>
-          <div className={styles.skinnBlock}>
-            <a href="#">
-              <img src={Skinn} alt="" />
-            </a>
+          <div className={styles.col}>
+            <div className={styles.colHeader}>
+              <div className={styles.logo}>
+                <img src={Skinn} alt="" />
+              </div>
+            </div>
             <p className="text skinnBlock-text">
               The wise man therefore always holds in these matters to this
               principle
             </p>
-            <div className={styles.leftSideBottom}>
-              <div className={styles.design}>
-                <p className="text design-text">Designed by</p>
-                <span>
-                  <a className={styles.designText} href="#">
-                    {" "}
-                    Webestica
-                  </a>
-                </span>
-              </div>
-              <div className={styles.power}>
-                <p className="text power-text">Powered by</p>
-                <span>
-                  <a className={styles.powerText} href="#">
-                    {" "}
-                    Webflow{" "}
-                  </a>
-                </span>
-              </div>
-            </div>
+            <p className="text design-text">
+              Designed by{" "}
+              <span>
+                <a className={styles.designText} href="#">
+                  Webestica
+                </a>
+              </span>
+            </p>
+
+            <p className="text power-text">
+              Powered by{" "}
+              <span>
+                <a className={styles.powerText} href="#">
+                  Webflow
+                </a>
+              </span>
+            </p>
           </div>
-          <div className={styles.pagesBlock}>
-            <a href="#" className={"pagesTitle"}>
-              Pages
-            </a>
-            <div className={styles.pagesList}>
-              <ul>
-                <li className={styles.pageLink}>
-                  <a href="#"></a>Home
-                </li>
-                <li className={styles.pageLink}>
-                  {" "}
-                  <a href="#"> </a>Home2
-                </li>
-                <li className={styles.pageLink}>
-                  <a href="#"></a>Shop All
-                </li>
-                <li className={styles.pageLink}>
-                  <a href="#"></a>Our Story
-                </li>
-                <li className={styles.pageLink}>
-                  <a href="#"></a>Blog
-                </li>
-                <li className={styles.pageLink}>
-                  <a href="#"></a>FAQs
-                </li>
+          <div className={styles.col}>
+            <div className={styles.colHeader}>
+              <a href="#" className={"pagesTitle"}>
+                Pages
+              </a>
+            </div>
+            <div className={styles.pages}>
+              <ul className={styles.pagesList1}>
+                <li className={styles.pageLink}>Home</li>
+                <li className={styles.pageLink}>Home2</li>
+                <li className={styles.pageLink}>Shop All</li>
+                <li className={styles.pageLink}>Our Story</li>
+                <li className={styles.pageLink}>Blog</li>
+                <li className={styles.pageLink}>FAQs</li>
               </ul>
-              <ul>
-                <li className={styles.pageLink}>
-                  <a href="#"></a>Contact Us
-                </li>
-                <li className={styles.pageLink}>
-                  <a href="#"></a>Instructions
-                </li>
-                <li className={styles.pageLink}>
-                  <a href="#"></a>Style Guide
-                </li>
-                <li className={styles.pageLink}>
-                  <a href="#"></a>Licenses
-                </li>
-                <li className={styles.pageLink}>
-                  <a href="#"></a>
-                </li>
+              <ul className={styles.pagesList2}>
+                <li className={styles.pageLink}>Contact Us</li>
+                <li className={styles.pageLink}>Instructions</li>
+                <li className={styles.pageLink}>Style Guide</li>
+                <li className={styles.pageLink}>Licenses</li>
               </ul>
             </div>
           </div>
-          <div className={styles.contactPage}>
-            <a className={"contactsTitle"}>Contact us</a>
+          <div className={styles.col}>
+            <div className={styles.colHeader}>
+              <a className="contactsTitle">Contact us</a>
+            </div>
             <div className={styles.questions}>
               <p>Have questions or suggestions?</p>
               <a className={styles.contactsLink} href="#">
@@ -100,10 +79,12 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <div className={styles.descriptionBlock}>
-            <a className={styles.descriptionTitle} href="#">
-              We’re here for you
-            </a>
+          <div className={styles.col}>
+            <div className={styles.colHeader}>
+              <a className={styles.descriptionTitle} href="#">
+                We’re here for you
+              </a>
+            </div>
             <div className={styles.description}>
               <p className={styles.descriptionText}>
                 Monday - Thursday: 9:30 - 18:00

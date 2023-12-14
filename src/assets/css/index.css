@@ -19,67 +19,70 @@ body {
   padding: 12px 21px;
 }
 
-.btn-features{
-    padding: 12px 21px;
-    max-width: 115px;
+.btn-features {
+  padding: 12px 21px;
+  max-width: 115px;
 }
 
-.text-intro{
-    font-size: 88px;
-    font-weight: 300;
+.btn-products {
+  padding: 13px 119px;
+  width: 100%;
+  border-radius: 5px;
 }
-.btn{
-    color: #68513F;
-    border: 1px solid #DACEC6;
-    background: #F1EBE7;
+
+.text-intro {
+  font-size: 88px;
+  font-weight: 300;
 }
-.text{
-    color: #000;
-    font-family: 'Inter', sans-serif;
+.btn {
+  color: #68513f;
+  border: 1px solid #dacec6;
+  background: #f1ebe7;
+}
+.text {
+  color: #000;
+  font-family: "Inter", sans-serif;
 }
 
 .title {
-    font-family: 'Style Script', sans-serif;
-    color:#68513F;
-    font-size: 137px;
+  font-family: "Style Script", sans-serif;
+  color: #68513f;
+  font-size: 137px;
 }
-<<<<<<< HEAD
-.design-text{
-    margin-right: 0.5em;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 19.6px;
-}
-.power-text{
-    margin-right: 0.5em;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 19.6px;
-}
-.skinnBlock-text{
 
-    width: 40%;
+.design-text {
+  margin-right: 0.5em;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.6px;
 }
-.pagesTitle{
-    color: #000;
-    margin-bottom: 29px;
-    font-family: 'STSong', sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 39.2px;
+.skinnBlock-text {
+  margin-bottom: 57px;
 }
-.contactsTitle{
-    color: #000;
+.power-text {
+  margin-right: 0.5em;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.6px;
+}
 
-    font-family: 'STSong', sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 39.2px;
+.pagesTitle {
+  color: #000;
+  margin-bottom: 29px;
+  font-family: "STSong", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 39.2px;
 }
-=======
+.contactsTitle {
+  color: #000;
 
->>>>>>> 0ee4f2daecbb28f34e770ae206b5a00953c1928e
+  font-family: "STSong", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 39.2px;
+}
