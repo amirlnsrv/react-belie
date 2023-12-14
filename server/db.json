@@ -1,0 +1,28 @@
+{
+	"products": [
+		{
+			"id": 8,
+			"title": "Набор нижнего белья(минимализм)",
+			"price": 19999,
+			"description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+			"category": "Белье",
+			"image": "https://defile.ru/upload/iblock/978/97894d44b48284eb9d25029724d454f2.webp"
+		},
+		{
+			"id": 9,
+			"title": "Сорочка",
+			"price": 7999,
+			"description": "Крутейший ноут для крутейших программистов",
+			"category": "Белье",
+			"image": "https://defile.ru/upload/iblock/0b3/0b3d0fc33b7abd35d2e0fbea9711b870.webp"
+		},
+		{
+			"id": 10,
+			"title": "Халат",
+			"price": 13000,
+			"description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+			"category": "Белье",
+			"image": "https://defile.ru/upload/iblock/646/646416b800ef7ddda580e3c68f4bd523.webp"
+		}
+	]
+}

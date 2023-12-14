@@ -1,0 +1,35 @@
+.img {
+  overflow: hidden;
+}
+.img img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+.img img:hover {
+  transform: scale(1.2);
+}
+
+.product {
+  width: 33.333%;
+  border-radius: 10px;
+  background-color: #e7ded8;
+  padding: 10px;
+}
+
+.title {
+  margin-top: 6px;
+  font-size: 19px;
+  line-height: 26px;
+}
+
+.subtitle {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.text {
+  padding: 20px 0 41px;
+}

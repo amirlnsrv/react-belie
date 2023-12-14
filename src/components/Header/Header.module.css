@@ -9,6 +9,9 @@
 .logo {
   font-size: 24px;
 }
+.logo a {
+  color: #000;
+}
 .nav {
   display: flex;
   gap: 30px;
@@ -16,6 +19,12 @@
 .nav li {
   font-size: 17px;
   line-height: 19.6px;
+}
+.nav li a {
+  color: #000;
+}
+.cart {
+  cursor: pointer;
 }
 .cart p {
   font-size: 17px;
