@@ -1,19 +1,21 @@
 import React from "react";
 
 import styles from "./LoginPage.module.css";
-import Login from "../../components/Login";
+
+import FormLogin from "../../components/FormLogin";
+
 import { Link } from "react-router-dom";
 
 const LoginPage = () => {
   return (
-    <div className={styles.user}>
+    <div className={styles.login}>
       <div className="container">
         <div className={styles.inner}>
           <h2>Войти</h2>
-          <Login />
+          <FormLogin />
 
           <p>
-            Или <Link to="/register">Зарегистрироваться</Link>
+            Нет аккаунта? <Link to="/register">Зарегистрироваться</Link>
           </p>
         </div>
       </div>
