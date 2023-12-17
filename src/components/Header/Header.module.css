@@ -23,6 +23,34 @@
 .nav li a {
   color: #000;
 }
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.right a {
+  color: #000;
+  font-size: 17px;
+  line-height: 19.6px;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logout {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  color: #000;
+  font-size: 17px;
+  line-height: 19.6px;
+}
+
 .cart {
   cursor: pointer;
 }

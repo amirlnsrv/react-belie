@@ -1,16 +1,16 @@
 import React from "react";
 
 import styles from "./RegisterPage.module.css";
-import SignUp from "../../components/SignUp";
 import { Link } from "react-router-dom";
+import FormRegistration from "../../components/FormRegistration";
 
 const RegisterPage = () => {
   return (
-    <div className={styles.user}>
+    <div className={styles.register}>
       <div className="container">
         <div className={styles.inner}>
           <h2>Зарегистрироваться</h2>
-          <SignUp />
+          <FormRegistration />
 
           <p>
             Уже есть аккаунт? <Link to="/login">Войти</Link>

@@ -30,6 +30,10 @@ body {
   border-radius: 5px;
 }
 
+.btn-login {
+  padding: 7px 20px;
+}
+
 .text-intro {
   font-size: 88px;
   font-weight: 300;
